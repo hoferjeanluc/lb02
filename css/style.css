@@ -1,0 +1,225 @@
+.titelbild{
+	height: 60%;
+	width: 60%;
+	position: relative;
+	left: 225px;
+	bottom: 80px;
+}
+
+.nav-item{
+	font-weight: bold;
+}
+
+footer{
+	background-color: #624c41;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+
+
+.font-alltag{
+	color: black;
+	text-align: center;
+}
+
+.titel_fotogalerie{
+	text-align: center;
+}
+
+.text_fotogalerie{
+	text-align: center; 
+	margin-bottom: 870px;
+}
+
+.slidershow{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.middle{
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.galerie_navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition:  0.4s;
+}
+
+.bar:hover{
+	background: #fff;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide{
+	width:20%;
+	transition: 0.6s;
+}
+
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+	margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+	margin-left: -40%;
+}
+
+#r4:checked ~ .s1{
+	margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+	margin-left: -80%;
+}
+
+.text-center{
+	padding-bottom: 10px;
+}
+
+.Text1{
+	position: absolute;
+	top: 247px;
+	left: 750px;
+	width: 150px;
+}
+
+.Bild2{
+	position: absolute;
+	top: 252px;
+	left: 950px;
+}
+
+.Text2{
+	position: absolute;
+	top: 247px;
+	left: 1300px;
+	width: 150px;
+}
+
+.Abschnitt1{
+	padding-bottom: 15px
+}
+
+.Text3{
+	position: absolute;
+	top: 485px;
+	left: 750px;
+	width: 150px;
+}
+
+.Bild4{
+	position: absolute;
+	top: 490px;
+	left: 950px;
+}
+
+.Text4{
+	position: absolute;
+	top: 485px;
+	left: 1300px;
+	width: 150px;
+}
+
+.Text5{
+	position: absolute;
+	top: 720px;
+	left: 750px;
+	width: 150px;
+}
+
+.Bild6{
+	position: absolute;
+	top: 725px;
+	left: 950px;
+}
+
+.Text6{
+	position: absolute;
+	top: 720px;
+	left: 1300px;
+	width: 150px;
+}
+
+.Text7{
+	position: absolute;
+	top: 960px;
+	left: 750px;
+	width: 150px;
+}
+
+.Bild8{
+	position: absolute;
+	top: 960px;
+	left: 950px;
+}
+
+.Text8{
+	position: absolute;
+	top: 960px;
+	left: 1300px;
+	width: 150px;
+}
+
+.Button{
+	border-radius: 25px;
+	padding: 10px;
+	width: 180px;
+	height: 130px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: cornflowerblue;
+	color: white;
+}
+
+.Button:hover{
+	color: limegreen;
+}
+
+.Button_position{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+video{
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

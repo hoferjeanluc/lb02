@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fotogalerie</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="../css/style.min.css" rel="stylesheet">
+	<!-- Meine css Anpassungen -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+
+				 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="alltag.html">Alltag</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="fotogalerie.html">Fotogalerie
+							<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                   
+
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
+        <div class="container">
+
+            <!--Section: Einführung-->
+            <section>
+
+                <!-- Content -->
+                <div>
+
+                    <h1 class="titel_fotogalerie"> Fotogalerie</h1>
+					<p class="text_fotogalerie">Hier sind noch ein paar Bilder die ich auch gemacht habe, aber sonst nicht auf der Seite verwendet habe.</p>
+                </div>
+                <!-- Content -->
+            </section>
+            
+
+            <!--Section: Bildgalerie-->
+            <section>
+
+              <div class="slidershow middle">
+					
+					<div class="slides">
+						<input type="radio" name="r" id="r1" checked>
+						<input type="radio" name="r" id="r2">
+						<input type="radio" name="r" id="r3">
+						<input type="radio" name="r" id="r4">
+						<input type="radio" name="r" id="r5">
+						
+							<div class="slide s1">
+								<img class="bildgalerie" src="../img/katze_auf_boden.jpg" alt="Die Katze liegt Boden">
+							</div>
+							<div class="slide">
+								<img class="bildgalerie" src="../img/katze_isst.jpg" alt="Die Katze isst ihr essen">
+							</div>
+							<div class="slide">
+								<img class="bildgalerie" src="../img/schlafende_katze.jpg" alt="Katze schläft im Körbchen">
+							</div>
+							<div class="slide">
+								<img class="bildgalerie" src="../img/katze_im_garten.jpg" alt="Katze ist im Garten">
+							</div>
+							<div class="slide">
+								<img class="bildgalerie" src="../img/katze_auf_terrasse.jpg" alt="Katze liegt auf der Terrasse">
+							</div>
+					
+					</div>
+					
+					<div class="galerie_navigation">
+						<label for="r1" class="bar"></label>
+						<label for="r2" class="bar"></label>
+						<label for="r3" class="bar"></label>
+						<label for="r4" class="bar"></label>
+						<label for="r5" class="bar"></label>
+					</div>
+				
+				</div>
+				
+				<div>
+				
+					<video width="600" height="400" controls>
+					<source src="../img/katze_auf_terrasse.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+					
+				</div>
+
+            </section>
+         
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer>
+    <p>Ich habe diese Webseite selbst erstellt. Meine einzige Hilfe hier war die Vorlage von Bootstrap, welche ich dann aber verändert habe.</p>
+    </footer>
+</body>
+
+</html>
